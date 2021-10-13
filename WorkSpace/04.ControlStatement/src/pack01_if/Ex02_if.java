@@ -12,9 +12,14 @@ public class Ex02_if {
 		//}
 		Scanner sc = new Scanner(System.in);//스캐너의 사용을 준비함(스캐너 초기화식)
 		String inputData = sc.nextLine();
+		
 		//문제. inputData에는 sc.nextLine()통해서 String 숫자데이터가 들어있다.
 		//해당하는 숫자가 홀수인지 짝수인지를 if문으로 판단하여 콘솔창에 출력하시오.
 		//나머지를 구하는 방법   % 2 == 1인지 % 2 == 0인지
+		
+		
+		
+		
 		int num = Integer.parseInt(inputData);
 		if(num % 2 > 0) {
 			System.out.println("입력하신 숫자는 홀수 입니다.");

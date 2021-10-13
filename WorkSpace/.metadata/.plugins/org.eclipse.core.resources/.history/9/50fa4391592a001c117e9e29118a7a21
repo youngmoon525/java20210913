@@ -1,0 +1,9 @@
+package pack01_OOP;
+
+public class Student02Main {
+	public static void main(String[] args) {
+		Student02 s1 = new Student02();
+		s1.name = null;
+		System.out.println(s1.name);
+	}
+}

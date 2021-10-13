@@ -1,0 +1,17 @@
+
+public class Tddd {
+	public static void main(String[] args) {
+		for (int i = 0; i < 100; i++) {
+			System.out.println(i+"김영문");
+		}
+		for (int i = 0; i < 100; i++) {
+			System.out.println(i+"ㅇㅇ");
+		}
+	}
+	
+	public static void testMethod(int i , String name) {
+		for (int j = 0; j < i; j++) {
+			System.out.println(i+name);
+		}
+	}
+}

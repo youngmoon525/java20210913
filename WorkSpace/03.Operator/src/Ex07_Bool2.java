@@ -1,20 +1,15 @@
 
 public class Ex07_Bool2 {
 	public static void main(String[] args) {
-		//비교 == 같다의비교 < 왼쪽보다 오른쪽이 크냐 > 오른쪽보다 왼쪽이 크냐. 
-		// (a == b) a와b가 같냐 . ? true(a와b의 값이 같아요) , false (a와b의 값이 달라요)
-		int a = 10;
-		String result = a == 10 ? "맞습니다." : "틀립니다" ;
+		// 1 + 1 = 2;
+		// == (같은지의 비교)
+		int a = 10;				//? "true" : "false";
+		String result = a == 10 ? "같다" : "다르다";
+		//a라는 변수가 10이라는 값이 맞습니까? 같다 : 다르다
 		System.out.println(result);
-		//!
-		result = a != 10 ? "맞다" : "틀리다";
+		// != (다른지의 비교)
+		result = a != 10 ? "다르다" : "같다";
+		//a라는 변수가 10이라는 값이 아닙니까? 
 		System.out.println(result);
-		
-		boolean boolResult = a == 10; // == <비교를 사용하면 그결과는 항상 true false;
-		System.out.println(boolResult);
-		
-		// String result = a == 10 같은지를 비교 
-		// ? true일때의 반환값 : false일때의 반환값
-		//if문이라는 제어문으로 대체가 되지만. 개념은 알아야한다.
 	}
 }

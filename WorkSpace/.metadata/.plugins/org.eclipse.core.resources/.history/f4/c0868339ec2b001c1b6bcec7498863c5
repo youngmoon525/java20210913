@@ -1,0 +1,10 @@
+package pack03_OOP;
+
+import java.util.Random;
+import java.util.Scanner;
+
+public class StudentMain {
+	public static void main(String[] args) {
+	
+	}
+}

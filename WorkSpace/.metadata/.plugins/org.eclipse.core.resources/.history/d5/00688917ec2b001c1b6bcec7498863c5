@@ -1,0 +1,14 @@
+package pack03_OOP;
+
+public class StudentDTO {
+	//-이름 , 과목[] ,점수[], 등급 , 학생의 번호
+	//(과목[] = { "자바" , "CSS" , "javaScript" })
+	//점수[] = {   80 ,  50 , 100 } <- 과목이랑 Length똑같음.
+	String name ;//이름
+	String[] subject;//과목
+	int[] scores; //점수
+	String grade; //등급
+	int num ; //학생의번호
+	
+	
+}

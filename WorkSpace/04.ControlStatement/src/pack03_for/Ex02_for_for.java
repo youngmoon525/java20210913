@@ -7,6 +7,8 @@ public class Ex02_for_for {
 		//ex)for2)excel columns 과 rows 두개다 접근을 함(행열 구조)2차원
 		//ex)for3)excel columns 과 rows + sheet의 개념 3차원
 		//프로그램을 짰는데 for문이 3개 이상 사용되었다면 로직을 검토해볼 필요가있다.
+		
+		
 		for(int i = 0 ; i < 10; i ++) {
 			System.out.println(i);
 			for(int j = 0; j<10; j ++) {
@@ -19,6 +21,7 @@ public class Ex02_for_for {
 		//2*1 = 2 ............2*9;
 		//3*1 = 3 ............3*9;
 		//syso( i + "*" + j + "=" + (i*j))
+		
 		for(int i = 1; i < 10; i++) {
 			System.out.println(i + "단");
 			for(int j = 1; j < 10 ; j++) {

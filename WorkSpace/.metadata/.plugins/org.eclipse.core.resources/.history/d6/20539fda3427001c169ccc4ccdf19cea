@@ -1,0 +1,10 @@
+package pack04_Method;
+
+public class Ex02_Calculator {
+	//계산기의 전원을 킨다.
+	//어떤값을 반환하지 않는.
+	//void가 아닌 메소드 == sc.nextLine() == String값을 반환하는.
+	void powerOn() {
+		System.out.println("계산기의 전원을 킵니다.");
+	}
+}

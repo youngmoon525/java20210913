@@ -5,21 +5,31 @@ public class Ex02_While {
 		//1.초기값(조건식의 기준이되는값)
 		//2.조건식
 		//3.증감식
-		//1~100 까지의 수중에 (정수,숫자형) int
-		//홀수만 콘솔창에 출력하세요.
-		//1.while문 내부에 if문을 사용해야한다.
-		//2.while문의 증감식이 조금 변경 되어야한다.
+//		int i = 0 ;
+//		while(i<10) {
+//			System.out.println(i);
+//			//프로그램이 무한루프를 함 (i < 10 ) == true
+//			if(i % 2 == 0) {
+//				System.out.println("짝수입니다.");
+//			}else {
+//				System.out.println("홀수입니다.");
+//			}
+//			i++;
+//		}//while
 		
-		//while(조건식) { <-블럭킹-> }
+		//while문만을 이용해서 구구단 출력
+		//while문을 두개 중첩해서 구구단을 출력하시오.
 		int i = 1;
-		while(i<100) {
-			//첫번째방식
-			if(i%2 == 1) {
-				System.out.println(i);
+	
+		while(i<10) {
+			int j = 1;
+			System.out.println("i값:" + i + " j값 :" + j);
+			while(j<10) {
+				System.out.println(i + " * "+ j + "=" + (i*j) );
+				j++;
 			}
-			//두번째방식
-			//System.out.println(i);
-			//i += 2  ;
+			i++;
 		}
+		
 	}
 }

@@ -2,6 +2,8 @@ package pack01_Variable;
 
 public class Ex01_Variable {
 	public static void main(String[] args) {
+		//var <- DataType ?
+		//var a = '값을' ;
 		//int a , String b 같은 형태를 변수라고 한다.
 		//변수를 선언하는 방법은 변수의 타입을 지정해주고 그다음 변수의
 		//이름이 나오면 된다.

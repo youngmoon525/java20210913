@@ -1,0 +1,9 @@
+package pack02_OOP;
+
+public class LoginMain {
+	public static void main(String[] args) {
+		LoginDTO dto = new LoginDTO("testId" , "testPw");
+		System.out.println(dto.id);
+		System.out.println(dto.pw);
+	}
+}

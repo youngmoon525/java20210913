@@ -1,0 +1,8 @@
+package pack05_static;
+
+public class Ex03_CalculatorStatic {
+	
+	static void plus(int x , int y) {
+		System.out.println("x와 y의 합 : " + (x + y));
+	}
+}

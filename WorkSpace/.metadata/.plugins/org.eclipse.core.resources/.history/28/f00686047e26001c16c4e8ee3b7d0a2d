@@ -1,0 +1,9 @@
+package pack03_Constructor;
+
+public class Test_BungMain {
+	public static void main(String[] args) {
+		Test_Bung pat = new Test_Bung("팥", 1000, "팥붕어빵", "2021-10-06");
+		Test_Bung su = new Test_Bung("슈크림", 1100, "슈크림붕어빵", "2021-10-05");
+		System.out.println(pat.in_Item+"\t"+pat.price+"\t"+pat.name+"\t"+pat.ymd+"\t");
+	}
+}

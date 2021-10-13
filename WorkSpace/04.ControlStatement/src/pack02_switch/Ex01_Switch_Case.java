@@ -2,25 +2,33 @@ package pack02_switch;
 
 public class Ex01_Switch_Case {
 	public static void main(String[] args) {
-		//switch 선택문 : 다중 if문을 조금 간략하게 표현
-		//switch(기준값){
-			//case 값:
-				//case 값을 만족할때 실행되는 실행부
-			//	break;<-실행문 뒤에는 반드시 break로 끊어준다.
-		//}
-		//기준값을 넣는 조건이 굉장히 까다롭다.(조건식을 사용할수가 없다)
-		int score = 100;
-		switch(score / 10) { // score / 10 = 7
-			case 7:
-				System.out.println("점수가 70점대");
-				break;
-			case 8:
-				System.out.println("점수가 80");
-				break;
-			default:
-				System.out.println("점수의 case가 없음.");
-				break;
-		}//switch
-		
+		// 제어문 - 조건문 , 선택문
+		// 선택문 switch : == 다중 if문을 간략하게 표현
+		// 조건을 주기가 까다롭기때문에 사용빈도가 낮다
+
+		// switch ( 조건식x , 값 , ){
+		// case 값1:
+		// break;
+		// case 값2:
+		// break;
+		// }
+
+		int score = 5;
+		// 값
+		// if문의 경우에는 조건식을 사용하기때문에 값에 범위를 줄수있다.
+		// switch문의 경우에는 값만을 이용하기때문에 범위를 주기가 까다롭다/.
+		// 줄정리 단축키 = ctrl + shift + f
+		switch (score / 10) {
+		case 9:
+			System.out.println("A학점입니다.");
+			break;
+		case 8:
+			System.out.println("B학점입니다.");
+			break;
+		default :
+			System.out.println("if문의 else!");
+			break;
+		}// switch지역
+
 	}
 }

@@ -1,0 +1,10 @@
+package pack03_OOP;
+
+public class FruitMain {
+	public static void main(String[] args) {
+		String name = "사과";
+		int price = 1000;
+		int count = 3;
+		FruitDTO dto = new FruitDTO(name, price, cnt, org)
+	}
+}

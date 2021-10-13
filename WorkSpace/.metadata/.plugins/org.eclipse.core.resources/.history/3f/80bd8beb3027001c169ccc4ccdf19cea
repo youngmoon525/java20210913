@@ -1,0 +1,9 @@
+
+public class Tddd {
+	public static void main(String[] args) {
+	}
+	
+	public static void testMethod(int i , String name) {
+		//무조건 숫자만 입력받는 기능을 가진 메소드
+	}
+}

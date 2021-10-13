@@ -1,0 +1,23 @@
+package pack03_OOP;
+
+import java.util.Random;
+
+public class StudentDTO {
+	private String name ;//이름
+	private String[] subject;//과목
+	private int[] scores; //점수
+	private String grade; //등급
+	private int num ; //학생의번호
+	public StudentDTO(String name, String[] subject) {
+		super();
+		this.name = name;
+		this.subject = subject;
+	}
+	
+	
+	
+	
+	
+	
+	
+}

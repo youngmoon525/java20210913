@@ -1,0 +1,18 @@
+package pack02_OOP;
+
+public class PersonDAO {
+	//Data Acssess Object 
+	//데이터베이스 접근해서 기능을 수행하는 객체.
+	//데이터베이스에서 데이터를 가져옴(PersonDTO와 매칭이 되는 데이터)
+	//데이터베이스에 데이터를 보냄(PersonDTO와 매칭이 되는 데이터)
+	//Parametter 이용
+	
+	void display(PersonDTO[] persons) {
+		for(int i = 0; i<persons.length; i++) {
+			System.out.println(persons[i].name);
+		}
+	}
+	void display2() {
+		
+	}
+}

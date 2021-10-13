@@ -2,7 +2,17 @@ package pack03_for;
 
 public class Ex03_for_for {
 	public static void main(String[] args) {
-
+		//0~9
+		for(int i = 0 ; i < 10 ; i++) {
+			if(i %2 == 0) {
+				System.out.println(i+"는 홀수입니다.");
+			}else {
+				System.out.println(i+"는 짝수입니다.");
+			}
+		}
+		
+		
+		
 		//문제1) 1부터 10까지의 누적합(sum)을 구하시오.
 		//sum<-변수의 위치가 어디에 있어야할까?
 		//누적: sum = sum + 어떤값 == sum+=어떤값;

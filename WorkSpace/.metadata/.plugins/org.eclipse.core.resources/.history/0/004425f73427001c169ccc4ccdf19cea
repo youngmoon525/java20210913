@@ -1,0 +1,10 @@
+package pack04_Method;
+
+public class Ex02_CalculatorMain {
+	public static void main(String[] args) {
+		//인스턴스 멤버를 사용하기 위해서는. 반드시 인스턴스화(객체화)
+		Ex02_Calculator cal = new Ex02_Calculator();//계산기 객체를 초기화
+		cal.powerOn();
+		
+	}
+}

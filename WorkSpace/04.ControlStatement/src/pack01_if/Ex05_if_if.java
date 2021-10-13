@@ -17,16 +17,19 @@ public class Ex05_if_if {
 			//}
 		//}
 		Scanner sc = new Scanner(System.in);
+		//스캐너의 초기화식 (스캐너를 준비함)↑
+		
 		int num = Integer.parseInt(sc.nextLine());
 		if(num > 0) {
-			//num > 0 보다 크면 실행되는 영역 숫자를 0보다 크게 입력하면 실행된다.
-			if(num > 10) {
-				//num 10보다 크면 실행되는 영역
-				if(num > 20) {
-					//num 20보다 크면 실행되는 영역
-					System.out.println("20보다 큽니다.");
+			System.out.println("0보다 큽니다.");
+			if(num > 1) {
+				System.out.println("1보다 큽니다.");
+				if(num > 2) { //문제)<2보다 큽니다가 나올수있게 조건 수정.
+					System.out.println("2보다 큽니다.");
 				}
 			}
+			
 		}
+		
 	}
 }

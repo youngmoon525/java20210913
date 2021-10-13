@@ -1,6 +1,45 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="javax.swing.plaf.synth.SynthScrollBarUI"/>
+<fullyQualifiedTypeName name="java.util.Calendar"/>
+<fullyQualifiedTypeName name="pack03_Enum.Week"/>
+<fullyQualifiedTypeName name="java.lang.ArrayIndexOutOfBoundsException"/>
+<fullyQualifiedTypeName name="java.lang.Exception"/>
+<fullyQualifiedTypeName name="DataBindDTO"/>
+<fullyQualifiedTypeName name="java.util.Random"/>
+<fullyQualifiedTypeName name="pack01_class.Ex01_Student"/>
+<fullyQualifiedTypeName name="pack02_field.Ex03_FieldValue"/>
+<fullyQualifiedTypeName name="pack02_field.Ex02_Car"/>
+<fullyQualifiedTypeName name="pack02_field.Ex03_FieldMain"/>
+<fullyQualifiedTypeName name="pack03_Constructor.Ex01_Korean"/>
+<fullyQualifiedTypeName name="pack03_Constructor.Ex02_Car"/>
+<fullyQualifiedTypeName name="pack03_Constructor.Test_Bung"/>
+<fullyQualifiedTypeName name="pack04_Method.Ex01_Void"/>
+<fullyQualifiedTypeName name="pack04_Method.Ex02_Calculator"/>
+<fullyQualifiedTypeName name="pack04_Method.Ex03_Calculator"/>
+<fullyQualifiedTypeName name="pack05_static.Ex01_Static"/>
+<fullyQualifiedTypeName name="pack05_static.Ex02_Static"/>
+<fullyQualifiedTypeName name="pack05_static.Ex03_CalculatorStatic"/>
+<fullyQualifiedTypeName name="java.lang.Integer"/>
+<fullyQualifiedTypeName name="pack05_static.Test"/>
+<fullyQualifiedTypeName name="pack01_OOP.Student"/>
+<fullyQualifiedTypeName name="pack01_OOP.Product"/>
+<fullyQualifiedTypeName name="pack01_OOP.Test"/>
+<fullyQualifiedTypeName name="pack01_OOP.Student02"/>
+<fullyQualifiedTypeName name="pack01_OOP.Student03"/>
+<fullyQualifiedTypeName name="java.io.StreamCorruptedException"/>
+<fullyQualifiedTypeName name="java.lang.String"/>
+<fullyQualifiedTypeName name="pack02_OOP.PersonDAO"/>
+<fullyQualifiedTypeName name="pack02_OOP.PersonDTO"/>
+<fullyQualifiedTypeName name="pack02_OOP.LoginDAO"/>
+<fullyQualifiedTypeName name="pack02_OOP.PrinterKYM"/>
+<fullyQualifiedTypeName name="pack02_OOP.PrinterMain"/>
+<fullyQualifiedTypeName name="pack02_OOP.LoginDTO"/>
+<fullyQualifiedTypeName name="pack03_OOP.BookDTO"/>
+<fullyQualifiedTypeName name="pack03_OOP.BookDAO"/>
 <fullyQualifiedTypeName name="java.util.Scanner"/>
 <fullyQualifiedTypeName name="java.lang.System"/>
-<fullyQualifiedTypeName name="java.lang.Integer"/>
+<fullyQualifiedTypeName name="java.util.Arrays"/>
+<fullyQualifiedTypeName name="pack03_OOP.FruitDTO"/>
+<fullyQualifiedTypeName name="pack03_OOP.FruitDAO"/>
 </qualifiedTypeNameHistroy>

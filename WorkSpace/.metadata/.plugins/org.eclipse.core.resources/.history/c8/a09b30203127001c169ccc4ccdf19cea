@@ -1,0 +1,6 @@
+
+public class Maindg {
+	public static void main(String[] args) {
+		Tddd.testMethod(30, "연예인" , ?);
+	}
+}

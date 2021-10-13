@@ -1,0 +1,21 @@
+package pack03_OOP;
+
+public class StudentDTO {
+	String[] subjects;
+	int[] scores;
+	public String[] getSubjects() {
+		return subjects;
+	}
+	public void setSubjects(String[] subjects) {
+		this.subjects = subjects;
+	}
+	public int[] getScores() {
+		return scores;
+	}
+	public void setScores() {
+		if(subjects != null) {
+			scores = new int[subjects.length];
+		}
+	}
+	
+}

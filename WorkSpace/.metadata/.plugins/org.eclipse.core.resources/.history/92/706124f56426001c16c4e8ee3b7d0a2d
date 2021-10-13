@@ -1,0 +1,7 @@
+package pack01_class;
+
+public class Ex01_StudentMain {
+	public static void main(String[] args) {
+		
+	}
+}

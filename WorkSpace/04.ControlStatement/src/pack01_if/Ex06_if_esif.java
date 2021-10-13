@@ -15,16 +15,22 @@ public class Ex06_if_esif {
 		//}else{
 		//	모든 조건식을 만족하지 못한경우 실행부.
 		//} if (else if).......  else
-		int score = 50; //int형 변수 score에 값 87을 주고 초기화
-		if(score >= 90) {//score는 87이기때문에 score >= 90 (조건식1) 조건식1을 만족하지 않음.
-			System.out.println("A학점");
+		
+		int score = 80; //int형 변수 score에 값 87을 주고 초기화
+		//점수가 70점 미만이고 60점 이상인 점수면 D학점을 출력할수있게 프로그램을
+		//수정해보세요.
+		if ( score >= 90 ) {
+			System.out.println("A학점이다.");
 		}else if(score >= 80) {
-			System.out.println("B학점");
+			System.out.println("B학점이다.");
 		}else if(score >= 70) {
-			System.out.println("C학점");
+			System.out.println("C학점이다.");
 		}else {
-			System.out.println("70점 미만입니다. F학점");
-			//위에 모든 조건식 if 와 else if 를 만족하지 못한경우에 실행되는 부분
+			System.out.println("F학점이다.");
 		}
+		
+		
+		
+		
 	}
 }

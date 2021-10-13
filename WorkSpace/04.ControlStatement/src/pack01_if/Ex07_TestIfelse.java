@@ -8,19 +8,19 @@ public class Ex07_TestIfelse {
 		//값이 1이면 콘솔창에 '남자'라고 출력이됨.
 		//값이2이면 콘솔창에  '여자' , 3이면 남자 , 4이면 여자
 		//그외에 값은 주민등록번호 오류.
-		int code = 5;
-		//논리연산자 && AND 논리곱 ( 모든 조건을 만족해야지만 TRUE반환 ) 1 * 0 = 0;
-			//뒤에 조건을 전부 따짐
-		//논리연산자 || OR  논리합 ( 하나의 조건이라도 만족하면 TRUE반환 )1 + 0 = 1;
-			//하나의 조건을 만족하면 뒤에 조건은 무시. 
-		//논리연산자를 이용해서 5번도 남자 6번은 여자.
-		//if () {} else if{} else { }
-		if(code == 1 || code == 3 || code == 5 ) {
+		int code = 3;
+		// && <- AND 연산자 , 그리고, 연결시켜놓은 모든 조건식을 만족해야만.true
+		//(논리곱)
+		// || <- OR 연산자 , 또는,연결시켜놓은 조건들중에 하나라도 만족하면 true
+		//(논리합)
+		//조건식1 true 이고 조건식2 true..........
+		//조건식1 또는 조건이2 또는..........
+		if(code == 1 || code == 3) {
 			System.out.println("남자");
-		}else if(code == 2 || code == 4 || code == 6) {
+		}else if(code == 2 && code == 4) {
 			System.out.println("여자");
 		}else {
-			System.out.println("주민등록번호 오류 ");
+			System.out.println("입력오류");
 		}
 	}
 }

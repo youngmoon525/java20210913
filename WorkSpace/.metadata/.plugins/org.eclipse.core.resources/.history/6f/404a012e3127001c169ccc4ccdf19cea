@@ -1,0 +1,20 @@
+import java.util.Scanner;
+
+public class Tddd {
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		while (true) {
+			testMethod(sc.nextLine());
+		}
+			
+	}
+	
+	public static void testMethod(String inputData) {
+		//무조건 숫자만 입력받는 기능을 가진 메소드
+		try {
+				Integer.parseInt(inputData);
+			}catch (Exception e) {
+			System.out.println("숫자가 아닙니다.");
+		}
+	}
+}

@@ -1,0 +1,8 @@
+package pack02_field;
+
+public class Ex02_CarMain {
+	public static void main(String[] args) {
+		//main 메소드가 없으면 java소스파일은 실행안됨.
+		//Ex02<객체를 인스턴스화(사용준비)를 하면 객체의 속성들을 이용할수가 있다.
+	}
+}

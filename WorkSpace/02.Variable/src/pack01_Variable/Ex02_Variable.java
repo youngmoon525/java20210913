@@ -6,7 +6,8 @@ public class Ex02_Variable {
 		//int a = 10;
 		//int b = 20;
 		//변수의 나열 데이터타입 변수1의 이름 , 변수2의 이름 ....
-		int a = 10 , b = 20;
+		int a = 10 , b = 20 ;
+		//syso + ctrl + space
 		System.out.println("변수 a의 값 : " + a);
 		System.out.println("변수 b의 값 : " + b);
 		//a의값을 30으로 , b의 값은 40으로 재할당 하시고 

@@ -4,33 +4,30 @@ import java.util.Scanner;
 
 public class Ex03_if_else {
 	public static void main(String[] args) {
-		//일반적으로 방금까지 사용한 단순 if문 뒤에 else라는 키워드를 통해
-		//if(조건식) 부분이 참이 아닐때 실행하는 블럭을 만든다.
-		//if(조건식){  참일때 실행  }else {    거짓일때 실행     }
-		int score = 75;
-		if(score > 90) {
-			//참일때의 실행부
-			System.out.println("점수가 90점보다 큽니다.");
+		//if(조건식) {
+			//참일때 실행되는 실행부
+			//변수를 선언(초기화) - 사용범위는 if문 블럭 안에서만 사용가능하다
+		
+		//}else{
+			//거짓일때 실행되는 실행부
+		//}
+		int score = 80;
+		
+		if(score >= 90) { // 80 >= 90 : false;
+			System.out.println("A학점");
 		}else {
-			int a = 0;
-			System.out.println("점수가 90점보다 작습니다.");
-			//거짓일때의 실행부
-		}
-		//if(){}else{} 문을 이용하여 
-		//숫자를 입력받아 그 숫자가 짝수인지 홀수인지를 출력하세요.(콘솔)
-		Scanner sc = new Scanner(System.in);
-		String inputData = sc.nextLine(); //<- int형 
-		int num = Integer.parseInt(inputData);
-		//if( 짝수 또는 홀수 둘중에 하나만 분별하면된다) else {  }
-		if( num % 2 == 1) {
-			System.out.println("홀수");
+			//조건식의 결과가 false 거짓일때의 실행부
+			System.out.println("A학점이 아닙니다.");
+		}//else 블럭
+		
+		int num = 4;
+		if(num % 2 == 1) {
+			int num2 = 10;//if문 블럭킹이 끝나는 순간에 메모리에서 사라짐
+			System.out.println("num에 있는 값은 홀수입니다 " + num);
 		}else {
-			System.out.println("짝수");
+			//num2 = 0; <-num2는 if문 블럭킹이 닫혔기때문에 사용할수가없다.
+			System.out.println("num에 있는 값은 짝수입니다." + num);
 		}
-		if( num % 2 == 0) {
-			System.out.println("짝수");
-		}else {
-			System.out.println("홀수");
-		}
+		//num2 = 0;<-num2는 if문 블럭킹이 닫혔기때문에 사용할수가없다.
 	}
 }
