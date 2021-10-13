@@ -1,6 +1,0 @@
-
-public class Ex06_String {
-	public static void main(String[] args) {
-		String str1 = "KYM" + 6.0; //DataType = ? 
-	}
-}

@@ -1,8 +1,0 @@
-package pack01_if;
-
-public class Ex07_TestIfelse {
-	public static void main(String[] args) {
-		//int형 데이터를 저장할수있는 변수 code라는 변수를 선언하고
-		//값을 할당하면서 테스트합니다.
-	}
-}

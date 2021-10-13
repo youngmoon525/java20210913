@@ -1,8 +1,0 @@
-package pack01_OOP;
-
-public class Student03 {
-	String name;
-	int kor , math , eng , sum;
-	double avg;
-	
-}

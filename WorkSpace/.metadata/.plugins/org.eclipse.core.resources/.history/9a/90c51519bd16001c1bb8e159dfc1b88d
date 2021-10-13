@@ -1,9 +1,0 @@
-
-public class Ex06_String {
-	public static void main(String[] args) {
-		String str1 = "KYM" + 6.0; //DataType = ?
-		String str2 = str1 + "0525" ; // DataType = ?
-		System.out.println(str1);
-		System.out.println(str2);
-	}
-}

@@ -1,7 +1,0 @@
-package pack02_OOP;
-
-public class PersonMain {
-	public static void main(String[] args) {
-		PersonDTO dto = new PersonDTO();
-	}
-}

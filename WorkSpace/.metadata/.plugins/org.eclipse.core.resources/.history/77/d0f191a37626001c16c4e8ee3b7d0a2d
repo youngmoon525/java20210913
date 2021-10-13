@@ -1,7 +1,0 @@
-package pack03_Constructor;
-
-public class Ex02_CarMain {
-	public static void main(String[] args) {
-		
-	}
-}

@@ -1,6 +1,0 @@
-
-public class Ex02_ppmm {
-	public static void main(String[] args) {
-		//증감연산자를 사용.
-	}
-}

@@ -1,7 +1,0 @@
-package pack05_static;
-
-public class Test {
-	public static void main(String[] args) {
-		//반드시 사용자가 숫자를 입력하게 만드는 메소드.
-	}
-}

@@ -1,6 +1,0 @@
-
-public class Ex09_Bool3 {
-	public static void main(String[] args) {
-		//int형에 점수를 입력한다. 변수의 이름은 score
-	}
-}

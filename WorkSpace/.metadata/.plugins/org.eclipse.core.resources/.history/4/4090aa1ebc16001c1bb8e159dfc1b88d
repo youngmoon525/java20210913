@@ -1,6 +1,0 @@
-
-public class Ex05_Equl {
-	public static void main(String[] args) {
-		int result = 0; //0으로 초기화 
-	}
-}

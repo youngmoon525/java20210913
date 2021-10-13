@@ -1,9 +1,0 @@
-package pack03_OOP;
-
-public class FruitDTO {
-	//과일의 이름 , 가격 , 수량 , 원산지
-	String name ;//이름
-	int price;//가격
-	int cnt;//수량
-	String org;//원산지
-}

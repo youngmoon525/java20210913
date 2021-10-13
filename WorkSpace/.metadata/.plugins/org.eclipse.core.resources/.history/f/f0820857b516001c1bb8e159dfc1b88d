@@ -1,8 +1,0 @@
-
-public class Ex02_ppmm {
-	public static void main(String[] args) {
-		//증감연산자를 사용.
-		int x = 1 ;
-		int y = 1 ; //변수 x와 y를 각각 1의 값을 주고 초기화 
-	}
-}

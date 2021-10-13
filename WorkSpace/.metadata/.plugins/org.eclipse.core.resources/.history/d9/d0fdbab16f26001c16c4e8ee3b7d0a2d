@@ -1,6 +1,0 @@
-package pack03_Constructor;
-
-public class Ex01_Korean {
-	//필드(속성) 
-	String nation = "대한민국"; 
-}

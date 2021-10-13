@@ -1,6 +1,0 @@
-
-public class Test2 {
-	public static void main(String[] args) {
-		//변수 == 데이터를 담기 위한 그릇.
-	}
-}

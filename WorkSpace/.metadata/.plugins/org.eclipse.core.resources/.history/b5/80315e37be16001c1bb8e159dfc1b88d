@@ -1,7 +1,0 @@
-
-public class Ex07_Bool2 {
-	public static void main(String[] args) {
-		//비교 == < 
-		// (a == b) a와b가 같냐 . ? true(a와b의 값이 같아요) , false (a와b의 값이 달라요)
-	}
-}

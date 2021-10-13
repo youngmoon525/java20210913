@@ -1,9 +1,0 @@
-package pack02_OOP;
-
-public class PrinterMain {
-	public static void main(String[] args) {
-		//인스턴스화를 절대 하지말것.(static)
-		PrinterKYM.println(false);
-		PrinterKYM.println(3);
-	}
-}

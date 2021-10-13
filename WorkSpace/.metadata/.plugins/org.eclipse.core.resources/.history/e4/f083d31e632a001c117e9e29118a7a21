@@ -1,6 +1,0 @@
-package pack02_OOP;
-
-public class PersonDAO {
-	//Data Acssess Object 
-	//데이터베이스 접근해서 기능을 수행하는 객체.
-}

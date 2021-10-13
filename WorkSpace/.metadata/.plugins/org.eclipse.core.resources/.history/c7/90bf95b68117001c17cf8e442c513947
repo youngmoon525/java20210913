@@ -1,9 +1,0 @@
-package pack01_if;
-
-public class Ex02_if {
-	public static void main(String[] args) {
-		// 흐름을 제어하는 제어문 중에는 크게 조건문,반복문
-		// 조건문 if
-		//단순 if문 : 조건을 판단하여 참일 경우에만 실행
-	}
-}

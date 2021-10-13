@@ -1,9 +1,0 @@
-package pack02_OOP;
-
-public class PersonDTO {
-	//Data Transfer Object
-	String name ;
-	int age;
-	double height , weight ;
-	String gender;
-}

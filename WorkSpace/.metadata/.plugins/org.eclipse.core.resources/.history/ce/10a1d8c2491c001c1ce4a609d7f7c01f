@@ -1,9 +1,0 @@
-package pack04_while;
-
-public class Ex02_While {
-	public static void main(String[] args) {
-		//1.초기값(조건식의 기준이되는값)
-		//2.조건식
-		//3.증감식
-	}
-}

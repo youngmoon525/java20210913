@@ -1,7 +1,0 @@
-package pack02_OOP;
-
-public class PrinterKYM {
-	static void println() {
-		
-	}
-}

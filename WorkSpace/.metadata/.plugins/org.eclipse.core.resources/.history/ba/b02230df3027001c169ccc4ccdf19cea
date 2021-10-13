@@ -1,9 +1,0 @@
-
-public class Tddd {
-	public static void main(String[] args) {
-	}
-	
-	public static void testMethod(int i , String name) {
-		
-	}
-}

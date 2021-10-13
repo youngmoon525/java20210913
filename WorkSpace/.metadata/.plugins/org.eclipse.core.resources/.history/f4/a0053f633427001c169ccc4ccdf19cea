@@ -1,8 +1,0 @@
-package pack04_Method;
-
-public class Ex02_Calculator {
-	//계산기의 전원을 킨다.
-	void powerOn() {
-		System.out.println("계산기의 전원을 킵니다.");
-	}
-}

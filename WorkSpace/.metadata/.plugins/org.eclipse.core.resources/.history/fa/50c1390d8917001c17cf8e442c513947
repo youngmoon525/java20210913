@@ -1,8 +1,0 @@
-package pack01_if;
-
-public class Ex04_if_if {
-	public static void main(String[] args) {
-		//class의 지역 외에 (메인 메소드 지역, if지역 , else지역)
-		//는 어디서든 if문을 사용할수가있다. (제어문을 사용할수가있다.)
-	}
-}

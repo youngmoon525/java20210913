@@ -1,7 +1,0 @@
-package pack05_static;
-
-public class Ex02_StaticMain {
-	public static void main(String[] args) {
-		
-	}
-}

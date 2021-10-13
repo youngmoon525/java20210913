@@ -1,9 +1,0 @@
-
-public class Ex03_Bool {
-	public static void main(String[] args) {
-		//boolean < = ( true , false ) 참 , 거짓 
-		//! == NOT 1=0 , 0=1 논리식의 반적을 의미함 == !
-		boolean bool = true;
-		System.out.println(bool);
-	}
-}

@@ -1,7 +1,0 @@
-package pack01_class;
-
-public class Ex01_StudentMain {
-	public static void main(String[] args) {
-		//Ex01_Student라는 Class를 인스턴스화(객체화)하기. 메모리에 올려서 사용할수있게 만들기.
-	}
-}

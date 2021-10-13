@@ -1,7 +1,0 @@
-package pack02_field;
-
-public class Ex02_CarMain {
-	public static void main(String[] args) {
-		//main 메소드가 없으면 java소스파일은 실행안됨.
-	}
-}
