@@ -1,0 +1,6 @@
+
+public class A {
+	public A() {
+		System.out.println("A가 생성 되었습니다.");
+	}
+}

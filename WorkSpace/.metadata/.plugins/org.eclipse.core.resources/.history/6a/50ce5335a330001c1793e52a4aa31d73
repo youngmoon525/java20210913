@@ -1,0 +1,16 @@
+package pack01_Interface;
+
+public class TestMain {
+	public static void main(String[] args) {
+//		TestInterface ti = new TestInterface() {
+//			@Override
+//			public void test2() {
+//				System.out.println("test2");
+//			}
+//			@Override
+//			public void test1() {
+//			}
+//		};
+//		ti.test2();
+	}
+}

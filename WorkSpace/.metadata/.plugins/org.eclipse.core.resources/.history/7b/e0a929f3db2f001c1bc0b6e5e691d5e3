@@ -1,0 +1,6 @@
+package pack02_extends;
+
+//자식 클래스가 선택하게 되면 SuperClass , 부모클래스가 될 예정인 Class
+public class Super_Class {
+
+}

@@ -1,0 +1,8 @@
+package package3;
+
+public class D {
+	//private 접근제한자 
+	//메소드 , 변수(field) 인스턴스 또는 static 멤버에 붙는 접근제한자.
+	public D(int num) {	}
+	D(String data) {	}
+}

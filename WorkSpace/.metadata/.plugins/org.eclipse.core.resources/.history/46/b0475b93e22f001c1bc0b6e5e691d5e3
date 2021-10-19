@@ -1,0 +1,14 @@
+package pack03_extends;
+
+public class DmbCellPhone extends CellPhone {
+	//이미 기능이 완성되어있는 1세대(CellPhone)을 이용해서
+	//+ 방송을 볼수있는기능을 추가하고 2세대 (DbmCellPhone)을 구현
+	int channel;//방송의 채널
+
+	public DmbCellPhone(String model , String color ,int channel) {
+		super();
+		this.channel = channel;
+	}
+	
+	
+}

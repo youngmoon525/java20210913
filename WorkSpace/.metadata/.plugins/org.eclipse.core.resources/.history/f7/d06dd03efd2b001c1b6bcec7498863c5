@@ -1,0 +1,17 @@
+package pack03_OOP;
+
+import java.util.Arrays;
+
+public class StudentMain {
+	public static void main(String[] args) {
+		//데이터 한건을 dto에 넣고 테스트.
+		String[] subjects = { "과목1" , "과목2" , "과목3"};
+		//[과목1] [과목2] [과목3]
+		StudentDTO dto = new StudentDTO("학생1", subjects);
+		System.out.println(dto.getName());
+		System.out.println(dto.getSubject()[0]);
+		System.out.println(dto.getSubject()[1]);
+		System.out.println(dto.getSubject()[2]);
+		//[dto1.subjects[] ] [dto2] [dto3]
+	}
+}

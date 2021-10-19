@@ -1,0 +1,9 @@
+package pack01_extends;
+
+public class Child_Class {
+	String child_field = "자식클래스 iv";
+	public void childMethod() {
+		System.out.println("자식클래스의 메소드");
+	}
+	
+}

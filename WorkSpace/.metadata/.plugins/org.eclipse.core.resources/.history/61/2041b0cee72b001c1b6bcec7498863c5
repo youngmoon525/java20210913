@@ -1,0 +1,8 @@
+package pack03_OOP;
+
+public class StudentDTO {
+	String[] subjects;
+	int[] scores;
+	
+	
+}

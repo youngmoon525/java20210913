@@ -1,0 +1,16 @@
+package pack04_OOPjapangi;
+
+import java.util.Scanner;
+
+public class JapangiMain {
+	public static void main(String[] args) {
+		//무한반복을 하는 루프를 만들고 특정 키 입력시 종료되는 구조를 먼저만듬.
+		DrinkDAO dao = new DrinkDAO();//인스턴스화(인스턴스 멤버를 사용하기위해서
+									  //객체를 객체화함 (인스턴스화함))
+		int menu = 0;
+		while(true) {
+			dao.rtnInt("숫자를 입력해주세요.");
+			break;
+		}
+	}
+}

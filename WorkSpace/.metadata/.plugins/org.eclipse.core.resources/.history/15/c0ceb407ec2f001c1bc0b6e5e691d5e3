@@ -1,0 +1,5 @@
+package pack05_override_final;
+
+public class Ariplane {
+//부모클래스(슈퍼) 가 되는 일반 비행기(1세대) 객체.
+}

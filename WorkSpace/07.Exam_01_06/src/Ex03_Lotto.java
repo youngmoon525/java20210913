@@ -40,7 +40,7 @@ public class Ex03_Lotto {
 					for (int k = 0; k < cnt; k++) {
 						int[] tempLotto = new int[6];
 						for (int i = 0; i < tempLotto.length; i++) {
-							System.out.println((]i + 1) + "번째 숫자를 입력해주세요.");
+							System.out.println((i + 1) + "번째 숫자를 입력해주세요.");
 							tempLotto[i] = Integer.parseInt(sc.nextLine());
 
 							if (tempLotto[i] < 1 || tempLotto[i] > 45) {

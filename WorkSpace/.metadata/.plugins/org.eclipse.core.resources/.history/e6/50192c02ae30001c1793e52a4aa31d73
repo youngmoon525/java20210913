@@ -1,0 +1,10 @@
+package pack03_Interfaces;
+
+import pack01_Interface.TestInterface;
+
+//Interface 설계도도 상속이 가능하다.(extends)
+public interface Interface_Extends extends TestInterface{
+	void itest1();
+	void itest2();
+
+}

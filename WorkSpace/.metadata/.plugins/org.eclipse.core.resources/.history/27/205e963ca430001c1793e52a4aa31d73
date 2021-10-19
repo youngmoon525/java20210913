@@ -1,0 +1,6 @@
+package pack02_Interface;
+
+//모든 개발자들이 참조해서 사용할수있는 리모콘의 설계도 Interface
+public interface RemoteController {
+	
+}

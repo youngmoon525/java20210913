@@ -1,0 +1,33 @@
+package pack03_OOP;
+
+public class StudentDTO {
+	String name;
+	String[] subjects;
+	int[] scores;
+	
+	
+	
+	public StudentDTO(String name, String[] subjects, int[] scores) {
+		super();
+		this.name = name;
+		this.subjects = subjects;
+		this.scores = scores;
+	}
+	public String[] getSubjects() {
+		return subjects;
+	}
+	public String getSubjects(int i) {
+		return subjects[i];
+	}
+	public void setSubjects(String[] subjects) {
+		this.subjects = subjects;
+	}
+	public int[] getScores() {
+		return scores;
+	}
+	public void setScores(int[] scores) {
+		this.scores = scores;
+	}
+	
+	
+}

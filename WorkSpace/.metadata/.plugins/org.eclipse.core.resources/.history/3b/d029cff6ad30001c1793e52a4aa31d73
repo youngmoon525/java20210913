@@ -1,0 +1,5 @@
+package pack03_Interfaces;
+
+public class IextendMain implements Interface_Extends{
+
+}

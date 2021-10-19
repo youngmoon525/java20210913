@@ -1,0 +1,6 @@
+package pack08_protected;
+
+public class A {
+	protected String feild;
+	
+}

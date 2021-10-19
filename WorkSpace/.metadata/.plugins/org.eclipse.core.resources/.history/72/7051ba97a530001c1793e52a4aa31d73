@@ -1,0 +1,12 @@
+package pack02_Interface;
+
+public class RemoteMain {
+	public static void main(String[] args) {
+		Audio a = new Audio();
+		a.turnOn();
+		a.turnOff();
+		a.setVolume(100);
+		System.out.println(a.getVolume());
+		
+	}
+}

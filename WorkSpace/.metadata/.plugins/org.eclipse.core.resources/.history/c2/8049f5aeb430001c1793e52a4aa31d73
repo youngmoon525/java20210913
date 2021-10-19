@@ -1,0 +1,14 @@
+
+public class A {
+	//A a = new A();
+	int field1;
+	public A() {
+		System.out.println("A가 생성 되었습니다.");
+	}
+	//A의 인스턴스 멤버(인스턴스 클래스)
+	public class B{
+		public B() {
+			System.out.println("B가 생성 되었습니다.");
+		}
+	}
+}//class↑ static이 안붙어있으면 전부 인스턴스 멤버(인스턴스화 해야 접근가능)

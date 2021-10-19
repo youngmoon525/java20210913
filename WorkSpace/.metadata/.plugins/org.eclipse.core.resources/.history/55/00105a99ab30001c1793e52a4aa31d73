@@ -1,0 +1,9 @@
+package pack03_Interfaces;
+
+import pack01_Interface.TestInterface;
+
+//extends (다중상속을 지원안함)
+//implements (다중상속을 지원함)
+public class Interfaces_Main implements TestInterface {
+
+}

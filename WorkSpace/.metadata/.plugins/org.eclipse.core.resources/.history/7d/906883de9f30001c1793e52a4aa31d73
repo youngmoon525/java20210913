@@ -1,0 +1,10 @@
+package pack10_abstract;
+
+public class Dog extends Animal{
+//abstract <= 상속을 받게되면 어떠한 메소드들은 강제로 구현을 하게 만드는 기법
+	@Override
+	public void sound() {
+	
+	}
+
+}

@@ -1,0 +1,5 @@
+package pack04_database;
+
+public class MsSqlDAO implements DataAccessObject{
+
+}

@@ -1,0 +1,7 @@
+
+public class A {
+	//A a = new A();
+	public A() {
+		System.out.println("A가 생성 되었습니다.");
+	}
+}//class

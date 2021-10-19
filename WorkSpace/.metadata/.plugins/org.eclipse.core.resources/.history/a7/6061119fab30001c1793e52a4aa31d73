@@ -1,0 +1,27 @@
+package pack03_Interfaces;
+
+import pack01_Interface.TestInterface;
+
+//extends (다중상속을 지원안함)
+//implements (다중상속을 지원함)
+public class Interfaces_Main implements TestInterface {
+
+	@Override
+	public void test1() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void test2() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void test3() {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

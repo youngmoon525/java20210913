@@ -1,0 +1,6 @@
+package pack05_override_final;
+
+public class SuperSonicAirplane {
+//일반 비행기의 기능을 전부 가지고있고 + 음속으로 날수있는 기능도있는 2세대
+//비행기 객체
+}

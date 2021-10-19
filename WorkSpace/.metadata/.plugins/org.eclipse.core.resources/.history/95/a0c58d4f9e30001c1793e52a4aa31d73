@@ -1,0 +1,10 @@
+package pack08_protected;
+
+public class B extends A{
+	public void init() {
+		A a = new A();
+		a.method();
+		a.feild ="";
+		
+	}
+}

@@ -44,11 +44,8 @@ public class Ex02_DiceGame {
 			int aa = 0;
 			if(userNum > comNum) {
 				System.out.println("사용자의 승리!");
-				int aa = 0;
 			}
 			else if(userNum < comNum) {
-				int aa = 0;
-				
 				System.out.println("컴퓨터의 승리!");
 			}
 			else  {
