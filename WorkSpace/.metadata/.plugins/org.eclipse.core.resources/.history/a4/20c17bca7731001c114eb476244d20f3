@@ -1,0 +1,8 @@
+
+public class Ex06_ThreadPriorityMain {
+	public static void main(String[] args) {
+		Ex06_ThreadPriority priority1 = new Ex06_ThreadPriority();
+		Ex06_ThreadPriority priority2 = new Ex06_ThreadPriority();
+		Ex06_ThreadPriority priority3 = new Ex06_ThreadPriority();
+	}
+}

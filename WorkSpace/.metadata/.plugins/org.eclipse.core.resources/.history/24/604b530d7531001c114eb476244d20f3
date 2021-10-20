@@ -1,0 +1,7 @@
+
+public class Ex05_ThreadNameMain {
+	public static void main(String[] args) {
+		Thread mainthread = Thread.currentThread();
+		System.out.println("현재 스레드의 이름 : " + mainthread.getName());
+	}
+}

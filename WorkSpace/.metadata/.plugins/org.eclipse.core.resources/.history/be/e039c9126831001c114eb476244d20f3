@@ -1,0 +1,9 @@
+import java.awt.Toolkit;
+
+public class Ex01_Thread {
+	public static void main(String[] args) {
+		//Window로부터 소리를 제공받는 API 
+		//패키지 java.awt.Toolkit;
+		Toolkit toolkit = Toolkit.getDefaultToolkit();
+	}
+}

@@ -1,0 +1,13 @@
+package pack01_List;
+
+public class Ex02_ArrayListRef {
+	public static void main(String[] args) {
+		//BoardDTO dto = new BoardDTO(1, "title", "content");
+		BoardDTO[] barray = new BoardDTO[3];
+		barray[0] =	new BoardDTO(1, "title1", "content1");
+		barray[1] =	new BoardDTO(2, "title2", "content2");
+		barray[2] =	new BoardDTO(3, "title3", "content3");
+		//?
+		//[  null ]  [  null ]   [ null   ]
+	}
+}

@@ -1,0 +1,10 @@
+
+public class Ex04_ExtendsThreadMain {
+	public static void main(String[] args) {
+		//Ex04_ExtendsThread Thread라는 부모클래스(상속)
+		Thread thread = new Ex04_ExtendsThread();
+		thread.start();
+		
+		
+	}
+}

@@ -1,0 +1,6 @@
+
+public class Ex05_ThreadNameA extends Thread{
+	public Ex05_ThreadNameA() {
+		setName("TheadA");
+	}
+}

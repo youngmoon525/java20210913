@@ -1,0 +1,9 @@
+package pack02_Anonymous;
+
+//어플리케이션이 시작되면 맨처음 시작되는 화면.
+public class MainActivity extends AppCompatActivity{
+	@Override
+	protected void onCreate() {
+		//화면을 초기화하는 단계(반드시 있어야한다)
+	}
+}
