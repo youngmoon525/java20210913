@@ -14,11 +14,12 @@ public class Ex02_ArrayListRef {
 		//barray[1] =	new BoardDTO(2, "title2", "content2");
 		//barray[2] =	new BoardDTO(3, "title3", "content3");
 		//System.out.println(Arrays.toString(barray));
-		//?
+		//?[ dto ]
 		//[  null ]  [  null ]   [ null   ]
 		ArrayList<BoardDTO> list = new ArrayList<>();
 		list.add(new BoardDTO(1, "title1", "content1"));
 		list.add(new BoardDTO(2, "title2", "content2"));
+		//list.add(null);//
 		for (int i = 0; i < list.size(); i++) {
 			System.out.println(list.get(i).getTitle());
 		}

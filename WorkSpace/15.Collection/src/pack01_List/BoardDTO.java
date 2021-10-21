@@ -5,7 +5,7 @@ public class BoardDTO {
 	private int no;//게시글의 번호
 	private String title;//게시글의 제목
 	private String content;//게시글의 내용
-	
+
 	public BoardDTO(int no, String title, String content) {
 		super();
 		this.no = no;
