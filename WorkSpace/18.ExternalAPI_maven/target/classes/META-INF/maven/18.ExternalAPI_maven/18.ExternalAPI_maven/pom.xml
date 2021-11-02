@@ -19,11 +19,23 @@
 		</plugins>
 	</build>
 	<dependencies>
+		<!-- 이메일 전송을 위한 lib -->
+		<dependency>
+			<groupId>org.apache.commons</groupId>
+			<artifactId>commons-email</artifactId>
+			<version>1.5</version>
+		</dependency>
 		<!--ojdbc8 jdbc연결용 -->
 		<dependency>
 			<groupId>com.oracle.ojdbc</groupId>
 			<artifactId>ojdbc8</artifactId>
 			<version>19.3.0.0</version>
+		</dependency>
+		<!-- 문자 전송 api-->
+		<dependency>
+			<groupId>net.nurigo</groupId>
+			<artifactId>javaSDK</artifactId>
+			<version>2.2</version>
 		</dependency>
 	</dependencies>
 </project>
