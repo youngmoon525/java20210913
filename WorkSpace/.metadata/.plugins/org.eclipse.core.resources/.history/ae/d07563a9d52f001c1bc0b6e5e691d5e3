@@ -1,8 +1,0 @@
-package package4;
-
-public class Test1 {
-//default <-같은 패키지 내에서만 접근이 가능
-	int data1;
-	public String data2;
-	private int data3;
-}

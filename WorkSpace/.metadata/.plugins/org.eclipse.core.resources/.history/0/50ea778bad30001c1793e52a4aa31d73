@@ -1,5 +1,0 @@
-package pack03_Interfaces;
-//Interface 설계도도 상속이 가능하다.(extends)
-public interface Interface_Extends {
-
-}

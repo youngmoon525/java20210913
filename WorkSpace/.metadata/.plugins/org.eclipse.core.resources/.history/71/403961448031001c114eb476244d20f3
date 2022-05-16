@@ -1,8 +1,0 @@
-package pack01_List;
-
-public class Ex02_ArrayListRef {
-	public static void main(String[] args) {
-		BoardDTO[] barray = new BoardDTO[3];
-		
-	}
-}

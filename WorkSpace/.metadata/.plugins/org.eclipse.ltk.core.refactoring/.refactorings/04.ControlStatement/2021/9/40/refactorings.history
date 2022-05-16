@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Rename type &apos;pack06_game.HighLowGame&apos; to &apos;Ex01_HighLowGame&apos;&#x0D;&#x0A;- Original project: &apos;04.ControlStatement&apos;&#x0D;&#x0A;- Original element: &apos;pack06_game.HighLowGame&apos;&#x0D;&#x0A;- Renamed element: &apos;pack06_game.Ex01_HighLowGame&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;HighLowGame&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;pack06_game{HighLowGame.java[HighLowGame" matchStrategy="1" name="Ex01_HighLowGame" qualified="false" references="true" similarDeclarations="false" stamp="1632722318185" textual="false" version="1.0"/>
-</session>

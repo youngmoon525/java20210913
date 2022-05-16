@@ -1,7 +1,0 @@
-package pack02_Anonymous;
-
-public class AppCompatActivity {
-	protected void onCreate() {
-		
-	}
-}

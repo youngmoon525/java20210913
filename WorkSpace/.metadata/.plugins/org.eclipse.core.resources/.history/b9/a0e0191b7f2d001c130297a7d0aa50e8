@@ -1,6 +1,0 @@
-package pack04_OOPjapangi;
-
-//음료의 정보들을 관리할수있는 객체
-public class DrinkDTO {
-
-}

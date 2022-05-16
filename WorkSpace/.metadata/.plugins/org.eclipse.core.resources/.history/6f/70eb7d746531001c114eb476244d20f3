@@ -1,6 +1,0 @@
-package pack02_Anonymous;
-
-//어플리케이션이 시작되면 맨처음 시작되는 화면.
-public class MainActivity extends AppCompatActivity{
-
-}

@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Copy element &apos;Ex02_Break.java&apos; to &apos;pack05_etc.Ex02_Break.java&apos;&#x0D;&#x0A;- Original project: &apos;04.ControlStatement&apos;&#x0D;&#x0A;- Destination element: &apos;pack05_etc.Ex02_Break.java&apos;&#x0D;&#x0A;- Original element: &apos;pack05_etc.Ex02_Break.java&apos;" description="Copy compilation unit" destination="/src&lt;pack05_etc{Ex02_Break.java" element1="/src&lt;pack05_etc{Ex02_Break.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1632464328608" units="1" version="1.0"/>
-</session>

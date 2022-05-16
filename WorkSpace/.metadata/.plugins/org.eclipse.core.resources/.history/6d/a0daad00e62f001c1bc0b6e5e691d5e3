@@ -1,9 +1,0 @@
-package pack03_extends;
-
-public class SmartCellPhone extends DmbCellPhone{
-
-	public SmartCellPhone(String model, String color, int channel) {
-		super(model, color, channel);
-	}
-
-}

@@ -1,9 +1,0 @@
-package pack05_override_final;
-
-public class AirMain {
-	public static void main(String[] args) {
-		SuperSonicAirplane sa = new SuperSonicAirplane();
-		sa.land();
-		sa.takeOff();
-	}
-}

@@ -1,6 +1,0 @@
-package pack02_Interface;
-
-//Interface를 이용해서 개발.
-public class TvClass implements RemoteController{
-
-}

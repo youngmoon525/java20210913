@@ -1,5 +1,0 @@
-
-//Runnable (<= interface )
-public class Ex02_BeepTask implements Runnable {
-
-}

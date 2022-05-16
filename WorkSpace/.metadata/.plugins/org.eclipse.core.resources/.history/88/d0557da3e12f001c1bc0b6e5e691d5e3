@@ -1,7 +1,0 @@
-package pack03_extends;
-
-public class CellPhone {
-	//필드
-	public String model;//핸드폰의 기종
-	public String color;//핸드폰의 색
-}

@@ -1,5 +1,0 @@
-package pack04_database;
-//dao를 구현할수있게 interface 설계도를 만듬
-public interface DataAccessObject {
-
-}

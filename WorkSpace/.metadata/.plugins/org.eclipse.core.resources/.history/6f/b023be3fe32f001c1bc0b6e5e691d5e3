@@ -1,7 +1,0 @@
-package pack03_extends;
-
-public class CellPhoneMain {
-	public static void main(String[] args) {
-		DmbCellPhone dcp = new DmbCellPhone(model, color, channel)
-	}
-}

@@ -1,5 +1,0 @@
-package pack02_extends;
-
-public class Sub_Sub extends Sub_Class{
-
-}

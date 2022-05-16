@@ -1,5 +1,0 @@
-package pack01_List;
-
-public class BoardDTO {
-	//게시판의 정보를 가지고있는 객체 
-}
